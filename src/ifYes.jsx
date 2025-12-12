@@ -1,6 +1,7 @@
 import Finish from './finish.jsx';
 import { useState } from 'react'
-
+import cute3 from './assets/img/cute3.JPG'
+import cute4 from './assets/img/cute4.png'
 function IfYes() {
     const [state, setstate] = useState('Are you free on ...');
 
@@ -16,7 +17,7 @@ function IfYes() {
         const h1 = document.querySelector('h1')
 
         
-        crImg.src = '/src/assets/img/cute4.PNG'
+        crImg.src = `${cute4}`
 
         h1.insertAdjacentElement('afterend', crImg)
         p.style.display = 'none'
@@ -38,7 +39,7 @@ function IfYes() {
                 </div>
             </section>
             <div className='cute'>
-                <img src="/src/assets/img/cute3.JPG" alt=""></img>
+                <img src={cute3} alt=""></img>
             </div>
         </>
     )
