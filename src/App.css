@@ -89,4 +89,8 @@ button:hover {
   img {
     width: 100%;
   }
+  .decor {
+    margin: 10vh auto;
+    width: 20vw;
+  }
 }
