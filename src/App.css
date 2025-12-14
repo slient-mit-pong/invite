@@ -18,9 +18,13 @@
   border-radius: 20px;
   font-family: 'pacifico', sans-serif;
 }
+h1 {
+  font-size: 3.5vh;
+}
 .question p {
   margin: 10px;
   font-family: 'faustina', sans-serif;
+  font-size: 2vh;
 }
 .btn {
   display: grid;
@@ -28,6 +32,9 @@
   gap: 20px;
   margin: 2vh;
   height: 5vh;
+}
+button {
+  font-size: 3.5vh;
 }
 button {
   border-radius: 20px;
@@ -61,4 +68,25 @@ button:hover {
   width: 60vw;
   height: auto;
   margin: 20vh auto 0 auto;
+}
+@media (min-width: 768px) {
+  .question {
+    width: 30vw;
+  }
+  .btn {
+    gap: 4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  button{
+    font-size: 2vh;
+  }
+  .cute {
+    margin: 10vh auto;
+    width: 15vw;
+    height: auto;
+  }
+  img {
+    width: 100%;
+  }
 }
