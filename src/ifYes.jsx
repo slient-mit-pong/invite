@@ -35,7 +35,8 @@ function IfYes() {
                 <p>Which day: 25/12/2025</p>
                 <div className="btn">
                     <button onClick={yes}>Yes</button>
-                    <button onClick={no}>No</button>
+                    <button className='no' onClick={no}>No</button>
+                    <section className='feel'></section>
                 </div>
             </section>
             <div className='cute'>

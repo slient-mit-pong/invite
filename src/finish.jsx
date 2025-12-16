@@ -1,4 +1,5 @@
 import hoa from './assets/img/hoa.png'
+
 function Finish() {
     return(
         <>
