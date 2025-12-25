@@ -5,7 +5,7 @@ function PassWord({password, setPassword}) {
     const [count, setCount] = useState('')
 
     useEffect(() => {
-        if (count === 'Duyen') {
+        if (count === 'LocVinh') {
             setTimeout(() => {
                 setPassword(1)
             }, 1000);
